@@ -1,0 +1,268 @@
+/*------------------------------------------------------------*\
+  Title       : CUSTOM CSS FOR CLONE3
+  Author      : Aleksandar Jevremov
+  Start Date  : 09/29/2017
+  Finish Date : 09/29/2017
+\*------------------------------------------------------------*/
+
+/* Default Styles 
+----------------------------------------*/
+
+*:not(small) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+.wrapper {
+  background: #8E754E;
+  background: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 15%;
+}
+
+.container {
+  max-width: calc(100% - 180px);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container > h1,
+.container > a {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: -1.6rem;
+}
+
+.container > h1 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: .7;
+}
+
+.container a,
+.container a span {
+  font-weight: 200;
+}
+
+.container > a {
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  margin-bottom: 1.5%;
+}
+
+.container span {
+  text-transform: uppercase;
+}
+
+.sectionHeader {
+  background: url('../img/pic02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 31vh;
+  background: #fff;
+}
+
+.sectionTitle h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.sectionTitle h2:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+  top: .5rem;
+  background: #000;
+  opacity: .2;
+}
+
+.sectionTitle p {
+  margin-top: 2%;
+  text-transform: uppercase;
+  color: #bbb;
+  font-size: .6em;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.sectionContent {
+  background: #F4F4F4;
+  color: rgba(0, 0, 0, .5);
+  padding: 7%;
+}
+
+.sectionContent p {
+  font-size: .8em;
+  font-weight: 200;
+}
+
+.sectionContent p:first-child {
+  margin-bottom: 3.5%;
+}
+
+.sectionGallery {
+  background: #1e1f23;
+}
+
+.articleGallery {
+  max-width: calc(100% - 200px);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 7% 0;
+}
+
+.articleHeader {
+  max-width: 100%;
+  padding: 3%;
+  background: #121315;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleHeader h2 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.articleHeader h2:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: .5rem;
+  background: #fff;
+  opacity: .2;
+}
+
+.articleHeader p {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .25);
+  margin-top: 2.5%;
+  font-size: .6em;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.boxContainer {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 50%;
+  height: 250px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box6 img,
+.box9 img,
+.box10 img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.box7,
+.box11 {
+  background: #F4F4F4;
+}
+
+.box7,
+.box8,
+.box11 {
+  padding: 10% 6%;
+}
+
+.box8 {
+  background: #1e1f23;
+  text-align: right;
+}
+
+.box8 h3 {
+  color: #fff;
+}
+
+.box8 p {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.largeBox {
+  width: 50%;
+  height: 440px;
+}
+
+.largeBox h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.largeBox p {
+  font-weight: 200;
+  font-size: .8em;
+}
+
+.networks {
+  max-width: 13%;
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa {
+  font-size: 1.4em;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.fa:hover {
+  color: #fff;
+}
+
+.sectionFooter {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.fa,
+small {
+  color: #F4F4F4;
+}
+
+small {
+  font-weight: 200;
+}
